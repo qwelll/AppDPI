@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleExecutable</key><string>HuayuarcAppDPIPrefs</string>
+    <key>CFBundleIdentifier</key><string>com.huayuarc.appdpi.preferences</string>
+    <key>CFBundleName</key><string>应用DPI缩放</string>
+    <key>CFBundlePackageType</key><string>BNDL</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
+    <key>CFBundleVersion</key><string>0.1.0</string>
+    <key>NSPrincipalClass</key><string>HuayuarcAppDPIRootListController</string>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key><string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key><array><string>CA92.1</string></array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key><string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key><array><string>C617.1</string></array>
+        </dict>
+    </array>
+</dict>
+</plist>
